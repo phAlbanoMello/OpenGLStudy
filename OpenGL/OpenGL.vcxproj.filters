@@ -18,6 +18,12 @@
     <ClCompile Include="src\Application.cpp">
       <Filter>Arquivos de Origem</Filter>
     </ClCompile>
+    <ClCompile Include="src\Renderer.cpp">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="src\VertexBuffer.cpp">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Dependencies\GLEW\include\GL\eglew.h">
@@ -39,6 +45,12 @@
       <Filter>Arquivos de Cabeçalho</Filter>
     </ClInclude>
     <ClInclude Include="src\Application.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Renderer.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="src\VertexBuffer.h">
       <Filter>Arquivos de Cabeçalho</Filter>
     </ClInclude>
   </ItemGroup>
@@ -67,6 +79,7 @@
     <None Include="Dependencies\GLEW\bin\Release\x64\glew32.dll" />
     <None Include="Dependencies\GLEW\bin\Release\x64\glewinfo.exe" />
     <None Include="Dependencies\GLEW\bin\Release\x64\visualinfo.exe" />
+    <None Include="Res\Shaders\Basic.shader" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="Dependencies\GLEW\LICENSE.txt" />

@@ -19,7 +19,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="src\Renderer.cpp" />
     <ClCompile Include="src\Application.cpp" />
+    <ClCompile Include="src\VertexBuffer.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Dependencies\GLEW\include\GL\eglew.h" />
@@ -28,7 +30,9 @@
     <ClInclude Include="Dependencies\GLEW\include\GL\wglew.h" />
     <ClInclude Include="Dependencies\GLFW\include\GLFW\glfw3.h" />
     <ClInclude Include="Dependencies\GLFW\include\GLFW\glfw3native.h" />
+    <ClInclude Include="src\Renderer.h" />
     <ClInclude Include="src\Application.h" />
+    <ClInclude Include="src\VertexBuffer.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Dependencies\GLEW\bin\Release\Win32\glew32.dll">
@@ -49,6 +53,7 @@
     <None Include="Dependencies\GLEW\doc\install.html" />
     <None Include="Dependencies\GLEW\doc\log.html" />
     <None Include="Dependencies\GLEW\doc\wglew.html" />
+    <None Include="Res\Shaders\Basic.shader" />
   </ItemGroup>
   <ItemGroup>
     <Library Include="Dependencies\GLEW\lib\Release\Win32\glew32.lib" />

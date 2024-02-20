@@ -2,12 +2,12 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>D:\OpenGL\OpenGL\Debug\OpenGL.exe</FullPath>
+      <FullPath>E:\Repos\OpenGLStudy\OpenGL\Debug\OpenGL.exe</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles>
     <ContentFile>
-      <FullPath>D:\OpenGL\OpenGL\Dependencies\GLEW\bin\Release\Win32\glew32.dll</FullPath>
+      <FullPath>E:\Repos\OpenGLStudy\OpenGL\Dependencies\GLEW\bin\Release\Win32\glew32.dll</FullPath>
     </ContentFile>
   </ContentFiles>
   <SatelliteDlls />
